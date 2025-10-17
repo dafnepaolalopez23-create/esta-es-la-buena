@@ -117,7 +117,55 @@
         <li><a href="https://www.wizardingworld.com/" target="_blank" rel="noopener noreferrer">Wizarding World</a></li>
       </ul>
     </section>
-  
+      <fieldset>
+  <h1>Personajes relevantes (trio de oro)</h1>
+  <div class="tabla-personajes">
+    <table>
+      <tr>
+        <td>Harry Potter</td>
+        <td><img src="imagenes/harry.potter.jpeg" alt="Harry Potter"></td>
+      </tr>
+      <tr>
+        <td>Ron Weasley</td>
+        <td><img src="imagenes/P1_Rony.webp" alt="Ron Weasley"></td>
+      </tr>
+      <tr>
+        <td>Hermione Granger</td>
+        <td><img src="imagenes/Hermione Granger.jpg" alt="Hermione Granger"></td>
+      </tr>
+    </table>
+  </div>
+</fieldset>
+<fieldset> 
+  <h1>Objetos que todo conocedor debe saber</h1>
+  <div class="tabla-reliquias">
+<table>
+  <tr>
+    <td colspan="3"> Las reliquias de la muerte</td>
+  </tr>
+  <tr>
+    <td>La varita de sauco <img src="imagenes/la varita de sauco.jpeg" alt="la varita de sauco"></td>
+    <td>Capa de invisibilidad <img src="imagenes/capa de invisibilidad.jpeg" alt="capa de invisibilidad"></td>
+    <td>la piedra de la resurrección <img src="imagenes/Las reliquias de la muerte.jpeg" alt="la piedra de la resurrección"></td>
+  </tr>
+</table>
+</fieldset>
+<fieldset>
+  <h1>Mascotas del trio de oro</h1>
+  <div class="tabla-mascotas">
+  <table>
+  <tr>
+    <td rowspan="3">Mascota de quien, nombre y que son <img src="imagenes/trio de oro.jpeg" alt="trio de oro"></td>
+    <td>la lechuza de Harry (Hedwig)<img src="imagenes/la lechuza de Harry.jpeg" alt="la lechuza de Harry"></td>
+  </tr>
+  <tr>
+    <td>el ratón de Ron (Scabbers) <img src="imagenes/P3_Scabbers.JPG.webp" alt="Scabbers"></td>
+  </tr>
+  <tr>
+    <td>la gata de Hermione (Crookshanks) <img src="imagenes/Crookshanks.jpg" alt="Crookshanks"></td>
+  </tr>
+</table>
+</fieldset>
 <section id="contacto">
 
 <section id="casas-magicas-contacto">
@@ -128,25 +176,23 @@
     <input type="file" id="archivo" name="archivo"><br><br>
 </fieldset>
     <fieldset>
-      <legend>Casa Favorita</legend>
-      <label><input type="radio" name="casa" value="Gryffindor" required> Gryffindor</label><br>
-      <label><input type="radio" name="casa" value="Ravenclaw"> Ravenclaw</label><br>
-      <label><input type="radio" name="casa" value="Hufflepuff"> Hufflepuff</label><br>
-      <label><input type="radio" name="casa" value="Slytherin"> Slytherin</label><br>
-    </fieldset>
-
-    <fieldset>
-      <legend>Opciones</legend>
-      <p>Sexo:</p>
-      <label><input type="radio" name="sexo" value="femenino" required> Femenino</label><br>
-      <label><input type="radio" name="sexo" value="masculino"> Masculino</label><br><br>
-
-      <p>Edad:</p>
-      <label><input type="radio" name="edad" value="14-15" required> 14 - 15 años</label><br>
-      <label><input type="radio" name="edad" value="16-17"> 16 - 17 años</label><br>
-      <label><input type="radio" name="edad" value="18-19"> 18 - 19 años</label><br><br>
-    </fieldset>
-
+  <legend>Casa Favorita</legend>
+  <label><span>Gryffindor</span><input type="radio" name="casa" value="Gryffindor" required></label>
+  <label><span>Ravenclaw</span><input type="radio" name="casa" value="Ravenclaw"></label>
+  <label><span>Hufflepuff</span><input type="radio" name="casa" value="Hufflepuff"></label>
+  <label><span>Slytherin</span><input type="radio" name="casa" value="Slytherin"></label>
+</fieldset>
+<fieldset>
+  <legend>Sexo</legend>
+  <label><span>Femenino</span><input type="radio" name="sexo" value="femenino" required></label>
+  <label><span>Masculino</span><input type="radio" name="sexo" value="masculino"></label>
+</fieldset>
+<fieldset>
+  <legend>Edad</legend>
+  <label><span>14 - 15 años</span><input type="radio" name="edad" value="14-15" required></label>
+  <label><span>16 - 17 años</span><input type="radio" name="edad" value="16-17"></label>
+  <label><span>18 - 19 años</span><input type="radio" name="edad" value="18-19"></label>
+</fieldset>
     <fieldset>
       <legend>Selecciona tu Curso de Magia</legend>
       <select name="nivel" id="nivel" required>
@@ -196,9 +242,6 @@
     <button type="submit">Enviar toda la info</button>
   </form>
 </section>
-
-
-
   </div> <!-- fin container -->
 
   <script>
